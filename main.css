@@ -1,0 +1,93 @@
+
+@media screen and (min-width: 770px) {
+	a.navbar-brand img {
+		position: static;
+		width: 20.25px;
+		height: 24.8333px;
+		top: -2px;
+	}
+
+	#navbar-nav-center {
+		position: absolute;
+		left: calc(50vw - (476px / 2));
+	}
+
+	#navbar-nav-center {
+		position: absolute;
+		left: calc(50vw - (476px / 2));
+	}
+
+	#navbag {
+		position: absolute;
+		left: calc(90vw - 10px);
+	}
+}
+
+@media screen and (max-width: 769px) {
+
+	.navbar-toggle {
+		margin-right: 25px;
+	}
+
+	a.navbar-brand img {
+		width: 20.25px;
+		height: 24.8333px;
+		position: fixed;
+		top: 15px;
+		left: calc(50vw - 10px);
+	}
+
+	div.navbar-collapse.collapsing, div.navbar-collapse.collapse.in {
+		text-align: center;
+	}
+
+	#navbag img {
+		position: fixed;
+		left: 20px;
+	}
+}
+
+#navbar-nav-center li a {
+	color: #bbb;
+
+	transition-duration: 0.2s;
+	transition-timing-function: ease;
+}
+
+#navbar-nav-center li a:hover {
+	color: #ddd;
+}
+
+div.carousel-inner #item1 {
+	background: url(./res/carousel/1.jpg) center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-top: 35vh;
+	padding-bottom: 35vh;
+}
+
+div.carousel-inner #item2 {
+	background: url(./res/carousel/2.jpg) center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-top: 35vh;
+	padding-bottom: 35vh;
+}
+
+div.carousel-inner #item3 {
+
+	background-color: #fff;
+
+	margin-top: 50px;
+	margin-bottom: -50px;
+
+	background: url(./res/carousel/3.jpg) center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	padding-top: 35vh;
+	padding-bottom: 35vh;
+}
+
