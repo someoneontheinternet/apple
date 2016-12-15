@@ -83,6 +83,7 @@
 	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 	      <span class="sr-only">Previous</span>
 	    </a>
+	    
 	    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
 	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 	      <span class="sr-only">Next</span>
@@ -90,23 +91,35 @@
 	  </div>
 	</div>
 
+	<br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<h1>TEXT</h1>
+	spacing
 
 </body>
 
 <footer>
 	
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
 	<script type="text/javascript">
 		
 		$(document).ready(function(){
-			
+
 			$('.navbar-toggle').click(function(){
 				$(this).find('#nav-icon').toggleClass('open');
 			});
+
+			$("#myCarousel").swiperight(function() {  
+      			$("#myCarousel").carousel('prev');  
+    		}); 
+
+			$("#myCarousel").swipeleft(function() {  
+				$("#myCarousel").carousel('next');  
+			}); 
+
 		});
 
 	</script>
